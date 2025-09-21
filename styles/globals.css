@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-bg-gradient {
+  background: #F7F3FF;
+} 
+
+@media screen and (min-width: 640px) {
+  .hero-bg-gradient {
+    background: linear-gradient(to right, #6E41E2 30%, transparent);
+  } 
+}
